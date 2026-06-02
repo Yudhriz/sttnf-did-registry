@@ -70,7 +70,7 @@ async function generateDIDKeys() {
           "id": `${didController}#domain`,
           "type": "LinkedDomains",
           "serviceEndpoint": [
-            "https://nurulfikri.qzz.io" // Ganti "yudha.github.io" dengan nama domain mu
+            "https://nurulfikri.qzz.io" // Ganti "https://nurulfikri.qzz.io" dengan nama domain mu
           ]
         }
       ]
