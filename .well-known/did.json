@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:nurulfikri.qzz.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:nurulfikri.qzz.io#zVgYqwS8q6FxcnNfDbfr6Eh3jUN_tinZwq7LG3HdnWc",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:nurulfikri.qzz.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "kid": "zVgYqwS8q6FxcnNfDbfr6Eh3jUN_tinZwq7LG3HdnWc",
+        "x": "GZGfSaP3eH2YZlneijWjSrNRj1XptkazNEhbKXRXNdk",
+        "y": "IkMGsFGF_K5P3gSbFcB5K4T9uy1oE8p1lz7UaKyXK7c",
+        "alg": "ES256"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:nurulfikri.qzz.io#zVgYqwS8q6FxcnNfDbfr6Eh3jUN_tinZwq7LG3HdnWc"
+  ],
+  "assertionMethod": [
+    "did:web:nurulfikri.qzz.io#zVgYqwS8q6FxcnNfDbfr6Eh3jUN_tinZwq7LG3HdnWc"
+  ],
+  "capabilityInvocation": [
+    "did:web:nurulfikri.qzz.io#zVgYqwS8q6FxcnNfDbfr6Eh3jUN_tinZwq7LG3HdnWc"
+  ],
+  "capabilityDelegation": [
+    "did:web:nurulfikri.qzz.io#zVgYqwS8q6FxcnNfDbfr6Eh3jUN_tinZwq7LG3HdnWc"
+  ],
+  "service": [
+    {
+      "id": "did:web:nurulfikri.qzz.io#domain",
+      "type": "LinkedDomains",
+      "serviceEndpoint": [
+        "https://nurulfikri.qzz.io"
+      ]
+    }
+  ]
+}
